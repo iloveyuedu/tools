@@ -71,7 +71,7 @@ class smtpEmail {
 	 * 返回和服务器交互信息
 	 */
 	public function debug() {
-		return $this->clientServerRec;
+		return $this->clientServerRec();
 	}
 }
 
