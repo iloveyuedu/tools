@@ -5,7 +5,7 @@ include "smtpEmail.php";
 class smtpEmailTest extends PHPUnit_Framework_TestCase {
 	private $smtpServer = null;
 	public function setUp() {
-		$this->smtpServer = new smtpEmail("smtp.qq.com", 25, "780860343@qq.com", "suxiaolindy110is");
+		$this->smtpServer = new smtpEmail("smtp.qq.com", 25, "780860343@qq.com", "xxx");
 	}
 
 	public function testSetup() {
